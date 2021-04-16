@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+
+*{
+    margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+	border: none;
+	outline: none;
+}
+
+body{
+    background-color: white;
+}
+
+#navbar{
+    font-family: 'Quicksand', sans-serif;
+    background-color: black;
+    color:white;
+    height: 80px;
+    width: auto;
+    padding: 10px;
+}
+
+h4{
+    font-size: 20px;
+}
+
+#style_banner{
+    position: relative;
+    height: auto;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+h2{
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    color: black;
+}
+
+ol{
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    color: black;
+    font-size: 20px;
+}
+
+button, a {
+    font-family: 'Quicksand', sans-serif;
+    float: none;
+    color: white;
+    background-color: black;
+    padding: 12px;
+    margin-right: 50px;
+    margin-left: 50px;
+    font-size: 30px;
+    border-color: black;
+    border-radius: 10px;
+}
+
+#button{
+    text-align: center;
+}
+
+.collection{
+    font-family: 'Quicksand', sans-serif;
+    height: 2500px;
+    width: 250px;
+    background: rgb(41, 41, 41);
+    float: right;
+    color: white;
+    align-items: center;
+    text-align: center;
+    opacity: 70%;
+}
+
+p{
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    color: black;
+    font-size: 45px;
+    background-color: coral;
+}
+
+#steps, li{
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    list-style-type: none;
+}
+
+h3 {
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    color: black;
+    font-size: 45px;
+    background-color: rgb(228, 238, 134);
+}
+
+
+.style, #style2, #style3, #style4, #style5, #style6, #style7, #style8, #style9, #style10, #style11, #style12, #style13, #style14, #style15, #style16{
+    height: 500px;
+    width: auto;
+    padding: 20px;
+}
+
+.hovered{
+    background: rgb(231, 206, 197);
+    border-style:dotted;
+}
+
+.invisible {
+    display: none;
+}
