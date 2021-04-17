@@ -39,3 +39,4 @@ var styles = document.getElementsByClassName("style");
             console.log(shoppingCart.childElementCount);
             
         }
+        
