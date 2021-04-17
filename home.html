@@ -7,10 +7,10 @@
     <!--Bootstrap-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link type="text/css" href="Style/style.css" rel="stylesheet">
-    <!--<script src="all.js"></script>-->
+   <script src="js/script.js"></script>
     <title>Drag and drop shop by Itzel Gil</title>
 </head>
-<body>
+<body onload="onLoad()">
     <!--Header-->
     <header>
         <div id="navbar">
@@ -44,43 +44,45 @@
     <br>
     <!--Shopping Cart-->
     <div class="collection" id="shoppingcart">
-            <span class="title">Add your items here</span>   
+            <span class="title">Add your items here</span>  
+            <h4>Total = </h4> 
+            <h4 id="totalPrice"></h4>
         </div>
     </div>
     <br>
     
     <!--Styles to choose SPRING-->
-        <img src="imágenes/Spring/IMG_0304.png" alt="" class="style" id="style1"> 
-        <img src="imágenes/Spring/IMG_0306.png" alt="" class="style">
-        <img src="imágenes/Spring/IMG_0308.png" alt="" class="style">
-        <img src="imágenes/Spring/IMG_0307.png" alt="" class="style">
+        <img src="imágenes/Spring/IMG_0304.png" alt="115" title="115€" class="style"> 
+        <img src="imágenes/Spring/IMG_0306.png" alt="230" title="230€" class="style">
+        <img src="imágenes/Spring/IMG_0308.png" alt="85" title="85€" class="style">
+        <img src="imágenes/Spring/IMG_0307.png" alt="58" title="58€" class="style">
     
     <br>
     <p id="summerlink">SUMMER</p>
     <br>
      
-        <img src="imágenes/Summer/IMG_0312.png" id="style6">
-        <img src="imágenes/Summer/IMG_0311.png" id="style5">
-        <img src="imágenes/Summer/IMG_0313.png" id="style7">
-        <img src="imágenes/Summer/IMG_0314.png" id="style8">
+        <img src="imágenes/Summer/IMG_0312.png" alt="65" title="65€" class="style">
+        <img src="imágenes/Summer/IMG_0311.png" alt="87" title="87€" class="style">
+        <img src="imágenes/Summer/IMG_0313.png" alt="54" title="54€" class="style">
+        <img src="imágenes/Summer/IMG_0314.png" alt="75" title="75€" class="style">
      
     <br>
     <p id="falllink">FALL</p>
     <br>
      
-        <img src="imágenes/Fall/IMG_0315.png" id="style9">
-        <img src="imágenes/Fall/IMG_0316.png" id="style10">
-        <img src="imágenes/Fall/IMG_0317.png" id="style11">
-        <img src="imágenes/Fall/IMG_0318.png" id="style12">
+        <img src="imágenes/Fall/IMG_0315.png" alt="120" title="120€" class="style">
+        <img src="imágenes/Fall/IMG_0316.png" alt="135" title="135€" class="style">
+        <img src="imágenes/Fall/IMG_0317.png" alt="115" title="115€" class="style">
+        <img src="imágenes/Fall/Ilustración_sin_título 4.png" alt="85" title="85€" class="style">
     </div>  
     <br>
     <p id="winterlink">WINTER</p>
     <br>
      
-        <img src="imágenes/Winter/IMG_0319.png" id="style13">
-        <img src="imágenes/Winter/IMG_0320.png" id="style14">
-        <img src="imágenes/Winter/IMG_0321.png" id="style15">
-        <img src="imágenes/Winter/IMG_0322.png" id="style16">
+        <img src="imágenes/Winter/IMG_0319.png" alt="135" title="135€" class="style">
+        <img src="imágenes/Winter/IMG_0320.png" alt="185" title="185€" class="style">
+        <img src="imágenes/Winter/IMG_0321.png" alt="210" title="210€" class="style">
+        <img src="imágenes/Winter/IMG_0322.png" alt="265" title="265€" class="style">
     
     
 </body>
