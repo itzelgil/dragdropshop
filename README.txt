@@ -1,6 +1,6 @@
 Hello!
 
-In this assignment, I created a digital style shop with the function "Drag and Drop"
+In this assignment from the bootcamp I'm studying in, I created a digital style shop with the function "Drag and Drop"
 
 Here you have the steps to start using it:
 
