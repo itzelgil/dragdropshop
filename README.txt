@@ -12,4 +12,8 @@ Here you have the steps to start using it:
  
 All the images were taken from pinterest.es and edited by me specially for this assignment.
 
+Here you can see the page and try it:
+
+https://itzelgil.github.io/dragdropshop/
+
 
