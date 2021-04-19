@@ -51,7 +51,7 @@ var styles = document.getElementsByClassName("style");
             console.log(shoppingCart.childElementCount);
             
         }
-        
+        //--Delete function
         function borrar(ev){
             ev.preventDefault();
             var id = ev.currentTarget.id;
