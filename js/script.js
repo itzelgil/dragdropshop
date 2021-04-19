@@ -27,7 +27,7 @@ var styles = document.getElementsByClassName("style");
             console.log("dragging");
             ev.preventDefault();
         }
-
+        //-- Drop function + total//
         function drop(ev){
         var shoppingCart = document.getElementById("shoppingcart");
             ev.preventDefault();
@@ -39,4 +39,8 @@ var styles = document.getElementsByClassName("style");
             console.log(shoppingCart.childElementCount);
             
         }
-        
+
+       // var deleteItem = document.createElement('button');
+       // deleteItem.classList.add('btn', 'btn-danger', 'mx-5');
+       // deleteItem.textContent = "X";
+       // deleteItem,addEventListener('click', deleteItemCart);        
