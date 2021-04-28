@@ -11,6 +11,7 @@
     <title>Drag and drop shop by Itzel Gil</title>
 </head>
 <body onload="onLoad()">
+    <div class="container-fluid">
     <!--Header-->
     <header>
         <div id="navbar">
@@ -20,6 +21,8 @@
     <!--Banner-->
     <img src="images/banner.png" id="style_banner">
     <br>
+    <div class="row" class="estilos">
+        <div class="col-md-12">
     <h3>GET THE LOOK</h3>
     <!--Steps-->
     <h2>Steps to add items to your shopping cart:</h2>
@@ -29,8 +32,9 @@
             <li>3. Select it and drag it to the shopping zone</li>
             <li>4. If you want, you can delete some items by clicking on the "x"</li>
         </ol>
-    
+        </div>
     <br>
+    <div class="col-md-12">
     <!--Buttons-->
     <div id="button">
         <button type="button" name="spring"><a href="#springlink">SPRING</a></button>
@@ -38,8 +42,10 @@
         <button type="button" name="fall"><a href="#falllink">FALL</a></button>
         <button type="button" name="winter"><a href="#winterlink">WINTER</a></button>
         </div>
+    </div>
     <br>
     <!--Shopping Cart-->
+    <div class="col-md-2">
     <div class="collection" id="shoppingcart">
             <br>
             <img src="images/shoppingcart.png" class="shoppingCartLogo">
@@ -55,10 +61,11 @@
             <!--<button class="removeButton"> Remove </button> -->
         </div>
         
-    
+    </div>
     <br>
     
     <!--Styles to choose SPRING-->
+    <div class="col-md">
     <div class="container" id="container">
     <br>
     <p id="springlink">SPRING</p>
@@ -69,9 +76,10 @@
             <img src="images/Spring/IMG_0307.png" alt="85" title="85€" class="style">
             <img src="images/Spring/IMG_0308.png" alt="58" title="58€" class="style">
         </div>
-    
+    </div>
     <br>
     <!--Styles to choose SUMMER-->
+    <div class="col-md">
     <p id="summerlink">SUMMER</p>
     <br>
    
@@ -82,7 +90,9 @@
             <img src="images/Summer/IMG_0314.png" alt="75" title="75€" class="style">
         </div>   
     <br>
+    </div>
     <!--Styles to choose FALL-->
+    <div class="col-md">
     <p id="falllink">FALL</p>
     <br>
         <div id="fall">
@@ -91,9 +101,10 @@
             <img src="images/Fall/IMG_0317.png" alt="115" title="115€" class="style">
             <img src="images/Fall/fall4.png" alt="85" title="85€" class="style">
         </div>
-      
+    </div>  
     <br>
     <!--Styles to choose WINTER-->
+    <div class="col-md">
     <p id="winterlink">WINTER</p>
     <br>
     
@@ -103,7 +114,9 @@
             <img src="images/Winter/IMG_0321.png" alt="210" title="210€" class="style">
             <img src="images/Winter/IMG_0322.png" alt="265" title="265€" class="style">
         </div>
-      
+    </div>
+    </div>
+    </div>
     </div>
 </body>
 </html>
